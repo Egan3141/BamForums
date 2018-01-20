@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Comfortaa|Montserrat');
+
+/*General*/
+body
+{
+	background-color: #09347a;
+}
+
+.Profile
+{
+	text-align: right;
+}
+
+.Profile a
+{
+	color:#F1632A;
+	font-weight: bold;
+	text-decoration: none;
+	color: #F1632A;
+	text-shadow: 4px 3px 2px #000000;
+	padding-left: 15px;
+}
+
+header
+{
+	font-size: 32px;
+	font-weight: bold;
+	color: #F1632A;
+	text-shadow: 4px 3px 2px #000000;
+}
+
+.Title
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #F1632A;
+	text-shadow: 4px 3px 2px #000000;
+}
+
+footer
+{
+	color: #F1632A;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 4px 3px 2px #000000;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+/*Navigation*/
+#HomePic
+{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 15px;
+	background-color: #F1632A;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 4px 0px 4px;
+}
+
+#HomePic a
+{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#HomePic a img
+{
+	border-radius: 15px;
+}
+
+.NavBar
+{
+	border-style: solid;
+	border-width: 2px;
+	background-color: #F1632A;
+	border-radius: 5px;
+	margin: 5px 0px 10px 0px;
+	color: #000000;
+}
+
+.NavBar ul
+{
+	font-weight: bold;
+}
+
+.NavBar a
+{
+	color: #09347A;
+	text-decoration: none;
+}
+
+.Topics
+{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	background-color: #09347A;
+	color: #000000
+}
+
+.Topics ul
+{
+	color: #FFFFFF;
+}
+
+.Topics a
+{
+	color: #F1632A;
+	text-decoration: none;
+}
+
+
+/*Threads*/
+.CreateThread
+{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	left: 80%;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #F1632A;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 0px;
+}
+
+.CreateThread ul
+{
+	font-weight: bold;
+}
+
+.CreateThread a
+{
+	color: #09347A;
+	text-decoration: none;
+}
+
+.Threads
+{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	background-color: #09347A;
+	color: #000000
+}
+
+.Threads ul
+{
+	color: #FFFFFF;
+}
+
+.Threads li
+{
+	background-color: #F1632A;
+	list-style: none;
+	padding: 5px;
+	margin-right: 3%;
+}
+
+.Threads a
+{
+	color: #09347A;
+	text-decoration: none;
+}
+
+/*Posts (OP and replies)*/
+
+.Title #MiniTitle
+{
+	text-align: center;
+}
+
+.NewPost
+{
+	border-style: solid;
+	border-radius: 5px;
+}
+
+form
+{
+	border-style: none;
+	background-color: #F1632A;
+	font-weight: 600;
+	padding: 5px 5px 3px 5px;
+	text-align: center;
+}
+
+.Posts
+{
+	border-style: solid;
+	border-radius: 5px;
+	padding-left: 5px;
+	background-color: #F1632A;
+	margin-bottom: 25px;
+}
+
+.Posts p
+{
+	color: #09347A;
+}
+
+.PostHeader
+{
+	border-bottom: solid;
+	border-bottom-width: 4px;
+	border-color: #FFAA88;
+}
+
+.PosterInfo
+{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+
+.PosterInfo p
+{
+	margin-bottom: 0;
+}
+
+.PosterInfo #SubPosterInfo
+{
+	font-size: 11px;
+	margin-top: 0;
+}
+
+.PostInfo
+{
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	right: -17%;
+}
+
+.PostContent
+{
+	clear: both;
+}
+
+/*Account*/
+.Info
+{
+	border-style: solid;
+	border-width: 2px;
+	background-color: #F1632A;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+	color: #000000;
+}
+
+#Welcome
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #F1632A;
+	text-shadow: 4px 3px 2px #000000;
+	text-align: center;
+}
+
+#Creds
+{
+	color: #09347A;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/*Add collapsable section of JavaScript*/
+.collapsible
+{
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-image: url("https://maxcdn.icons8.com/Share/icon/win8/Arrows//collapse_arrow1600.png");
+}
+
+.collapsed
+{
+  background-image: url("https://maxcdn.icons8.com/Share/icon/Arrows//expand_arrow1600.png");  
+}
+
+.collapsed > .PostContent
+{
+	display: none;
+}
+
+.TODO
+{
+	font-size: 32px;
+	font-weight: bold;
+	color: #F1632A;
+	text-shadow: 4px 3px 2px #000000;
+	text-align: center;
+}
+
+/*
+  background is an image.
+
+  Who is online.
+    total online: registered and guests
+  Forum Permissions
+    post new topics
+	reply to topics
+	edit posts
+	delete posts
+	post attachments
+  Statistics
+    total posts
+	total topics
+	total members
+	newest member?
+*/
+
+
+
+
+
+
+
+
+
