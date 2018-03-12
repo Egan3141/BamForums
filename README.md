@@ -15,7 +15,7 @@ A forum for all students of Boise State Univeristy to help and seek help from an
 
 ## Authors
 
-* **Tyler Egan**
+**Tyler Egan**
 
 ## License
 
@@ -23,4 +23,4 @@ BAM Forums is licensed under a Creative Commons Attribution 4.0 International Li
 
 ## Acknowledgments
 
-* This project was started because of a class project in my CS 401 Introduction to Web Development course. My instructor Marrisa Schmidt is responsible for providing me the file structure for this website. *
+This project was started because of a class project in my CS 401 Introduction to Web Development course. My instructor Marrisa Schmidt is responsible for providing me the file structure for this website.
