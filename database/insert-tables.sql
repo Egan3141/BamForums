@@ -1,5 +1,13 @@
--- Users
-INSERT INTO Users (email, password, name, role, posts, locked, lockedTime, attempts, attemptTime, profilePic) VALUES("admin@u.boisestate.edu", "adminroot", "admin", "Admin", '0', '0', '2017-12-08 10:45:00', '0', '2017-12-08 10:45:00 AM', "https://i.imgur.com/zymgstf.jpg");
+-- Roles
+INSERT INTO Roles (role, permission) VALUES ("Admin", "Read");
+INSERT INTO Roles (role, permission) VALUES ("Admin", "Write");
+INSERT INTO Roles (role, permission) VALUES ("Admin", "Admin Access");
+INSERT INTO Roles (role, permission) VALUES ("User", "Read");
+INSERT INTO Roles (role, permission) VALUES ("User", "Write");
+INSERT INTO Roles (role, permission) VALUES ("Guest", "Read");
+
+-- Users TODO: Update profilePic to admin pic
+INSERT INTO Users (email, password, name, role, posts, locked, lockedTime, attempts, attemptTime, profilePic) VALUES("admin@u.boisestate.edu", "adminroot", "Admin", "Admin", '0', '0', '2018-04-03 10:45:00', '0', '201-04-03 10:45:00 AM', "https://i.imgur.com/zymgstf.jpg");
 
 -- Topics
 INSERT INTO Topics VALUES("Accountancy", "ACCT", "Major");

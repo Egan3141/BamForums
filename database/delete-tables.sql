@@ -110,5 +110,8 @@ DROP TABLE IF EXISTS YG;
 -- Drop topics table
 DROP TABLE IF EXISTS Topics;
 
--- Drop last table, users
+-- Drop users
 DROP TABLE IF EXISTS users;
+
+-- Drop Roles
+Drop TABLE IF EXISTS Roles;

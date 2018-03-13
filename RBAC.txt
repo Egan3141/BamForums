@@ -1,0 +1,12 @@
+Accesses:
+	Read posts
+	Write posts
+	Admin Privileges
+Roles:
+	Guest
+	User
+	Admin
+Who has what:
+	Guest: Read
+	User: Read, Write
+	Admin: Read, Write, Admin Privileges

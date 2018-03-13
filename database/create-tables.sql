@@ -1,3 +1,10 @@
+-- Roles
+Create TABLE Roles (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	role VARCHAR(50) NOT NULL,
+	permission VARCHAR (100) NOT NULL
+);
+
 -- Users
 Create TABLE users(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -12,6 +19,7 @@ Create TABLE users(
 	attempts INT NOT NULL,
 	attemptTime DATETIME NOT NULL,
 	profilePic VARCHAR(256) NOT NULL
+	FOREIGN KEY (role) REFERENCES Roles(role)
 );
 
 -- Topics
