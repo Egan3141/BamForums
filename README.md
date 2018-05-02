@@ -1,17 +1,13 @@
-# BAM Forums
+#GetActive
 
-This website started out as just a class project for my Intro to Web Development class, but as time went on, I became more attached to it. By the time the class ended, I decided I wanted to pursue this further. I am now working towards making this a legitimate website and getting it distributed to students of BSU.
+This website started out as just a class project for my Intro to Web Development class, but as time went on, I became more attached to it. By the time the class ended, I decided I wanted to pursue this further. I am now working towards making this a legitimate website.
 
 ## Introduction
-For people that want to be able to get help from more than just your instructor or friends in your class, or for people looking for information about the fun they can have around their college and/or people they can have it with, I introduce:
+For people that love sports, love being outside, love just being active, but struggle to find places to do it, or even people to do it with, I introduce:
 
-Boise state
+GetActive
 
-Activites and
-
-Majors
-
-A forum for all students of Boise State Univeristy to help and seek help from another for classes and fun. BSU has Piazza for class mates,  blackboard (also for class mates, except even harder to use), and clubs, sororities, etc., but they do not have anything to help students interact with one another unless they are already associated with one another. BAM Forums is a place where a student can ask help from any student willing to provide it about anything related to a major or an activity.
+A forum for people to discuss their favorite activity, learn about new activities, or find people to do any activity with. Whether you want to talk/learn about things as simple as walking to as multi-person dependent as rugby to as varied as parkour, GetActive has a place for it. Learn about the activity, find places to do the activity, and find people to do it with, all at GetActive.
 
 ## Authors
 
