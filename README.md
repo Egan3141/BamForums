@@ -1,4 +1,4 @@
-#GetActive
+# GetActive
 
 This website started out as just a class project for my Intro to Web Development class, but as time went on, I became more attached to it. By the time the class ended, I decided I wanted to pursue this further. I am now working towards making this a legitimate website.
 
