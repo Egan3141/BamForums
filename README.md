@@ -7,7 +7,7 @@ For people that love sports, love being outside, love just being active, but str
 
 GetActive
 
-A forum for people to discuss their favorite activity, learn about new activities, or find people to do any activity with. Whether you want to talk/learn about things as simple as walking to as multi-person dependent as rugby to as varied as parkour, GetActive has a place for it. Learn about the activity, find places to do the activity, and find people to do it with, all at GetActive.
+A forum for people to discuss their favorite activity, learn about new activities, or find people to do any activity with. Whether you want to talk/learn about things as simple as walking to as multi-person dependent as rugby to as varied as parkour, GetActive has a place for it.
 
 ## Authors
 
