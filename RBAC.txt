@@ -1,12 +1,35 @@
+TODO: 
+Search
+Add links, pictures, etc (Role but not role?)
+
+
 Accesses:
-	Read posts
-	Write posts
-	Admin Privileges
+	Read: Open threads and read posts.
+	Write: Threads and posts.
+	Report: Threads and posts.
+	Delete: A post that was written by someone else.
+	DML: (Direct Message Low) Start messages with those of the same role or lower.
+	DMH: (Direct Message High) Start messages with those of a higher role.
+	
+		For Administration Pages
+	Insert: New AllThreads, rules, etc (What user's can't start but may or may not be able to add to).
+	Create: Tables for new activities.
+	Modify: Into RBAC tables to add or change things.
+	
+	
+	
 Roles:
-	Guest
-	User
-	Admin
+	Guest: No account
+	NUser: (New User)Just started or rarely active; prevent report spamming.
+	User: Been around long enough to know how things work; trust with reporting.
+	EUser: (Experienced User) Probably invested in forum and can be trusted, allow reporting and DMH.
+	Mod: (Moderator) Not an admin but still helps maintain website.
+	Admin: (Administrator) Full privileges.
+	
 Who has what:
 	Guest: Read
-	User: Read, Write
-	Admin: Read, Write, Admin Privileges
+	NUser: Read, Write, DML
+	User: Read, Write, Report, DML
+	EUser: Read, Write, Report, DML, DMH
+	Moderator: Read, Write, Report, Delete, DML, DMH, Insert, Create
+	Admin: Read, Write, report, Delete, DML, DMH, Insert, Create, Modify
