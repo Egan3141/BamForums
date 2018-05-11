@@ -17,7 +17,7 @@
 		<form 
 		class="Info" 
 		method="POST" 
-		action="BamSignUpHandler.php" 
+		action="SignUpHandler.php" 
 		autocomplete="off">
 			<p>
 				<label 

@@ -1,5 +1,5 @@
 <?php
-    require_once('BamHome.php');
+    require_once('Home.php');
 ?>
 
 

@@ -1,5 +1,5 @@
 <?php
-	require_once("BamSessionHelper.php");
+	require_once("SessionHelper.php");
 	session_start();
   
 	$_SESSION['currentPage'] = "CreateThread.php";
@@ -15,7 +15,7 @@
     </section>
 
     <section class="NewPost">
-      <form method="POST" action="BamPostHandler.php" autocomplete="off">
+      <form method="POST" action="PostHandler.php" autocomplete="off">
 	    Title: <input type="text" name="Thread">
 		<br>
         Post: <input type="text" name="Post">

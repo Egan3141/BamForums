@@ -19,7 +19,7 @@
 ?>
 		<section class = "CreateThread">
 			<h4>
-				<a href="BamCreateThread.php">Create Thread</a>
+				<a href="CreateThread.php">Create Thread</a>
 			</h4>
 		</section>
 <?php } ?>
@@ -45,5 +45,5 @@
 			</ul>
 		</section>
 <?php
-    require_once('BamFooter.php');
+    require_once('Footer.php');
 ?>

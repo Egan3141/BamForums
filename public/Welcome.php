@@ -29,7 +29,7 @@
 		?>
 
 <?php
-    require_once('BamFooter.php');
+    require_once('Footer.php');
 ?>
 
 

@@ -64,15 +64,15 @@
 		$previousPage = $_SESSION['previousPage'];
 		unset($_SESSION['previousPage']);
 		/*How do I add the GETs?
-		if($previousPage === "BamMajor.php"){
+		if($previousPage === "Major.php"){
 			
-		} else if($previousPage === "BamMajor.php"){
+		} else if($previousPage === "Major.php"){
 			
-		} else if($previousPage === "BamMajor.php"){
+		} else if($previousPage === "Major.php"){
 			
-		} else if($previousPage === "BamMajor.php"){
+		} else if($previousPage === "Major.php"){
 			
-		} else if($previousPage === "BamMajor.php"){
+		} else if($previousPage === "Major.php"){
 			
 		}
 		header('Location: '.$previousPage);

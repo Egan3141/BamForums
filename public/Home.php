@@ -1,26 +1,29 @@
 <?php
-	require_once("BamSessionHelper.php");
-	require_once("Dao.php");
+	require_once("SessionHelper.php");
+	//require_once("Dao.php");
 	session_start();
   
 	$_SESSION['currentPage'] = "Home.php";
 	$_SESSION['level'] = 1;
-	require_once('BamHeader.php');
-	require_once('BamForumNavBar.php');
+	require_once('Header.php');
+	//require_once('ForumNavBar.php');
 	
-	$dao = new Dao();
-	$result = $dao->getList();
+	//$dao = new Dao();
+	//$result = $dao->getList();
 ?>
 		<section class="Topics">
 			<ul>
-				<?php foreach($result as $row) { ?>
-				<li><a href="BamActivity.php?Activity=<? echo $row['name'] ?>"><? echo $row['name'] ?></a></li>
-				<?php } ?>
+				<li><a href="Activity.php?Activity=Archery">Archery</a></li>
 			</ul>
 		</section>
 
 <?php
-    require_once('BamFooter.php');
+    require_once('Footer.php');
+	
+	/*<?php foreach($result as $row) { ?>
+	<li><a href="Activity.php?Activity=<? echo $row['name'] ?>"><? echo $row['name'] ?></a></li>
+	<?php } ?>
+	*/
 ?>
 
 

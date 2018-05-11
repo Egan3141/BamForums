@@ -75,7 +75,7 @@
 	if($_SESSION['user'] !== "Guest"){
 	?>
 		<section class="NewPost">
-			<form method="POST" action="BamPostHandler.php" autocomplete="off">
+			<form method="POST" action="PostHandler.php" autocomplete="off">
 				Post: <input type="text" name="Post">
 				<br>
 				TL;DR: <input type="text" name="TLDR">
