@@ -3,7 +3,7 @@
 	<head>
 		<title>GetActive&copy;</title>
 		<link href="css/Style.css" rel="stylesheet" type="text/css" />
-		<link rel="icon" type="image/png" href="images/Greenbelt1.png"> -->
+		<link rel="icon" type="image/png" href="images/tmp.png">
 		<script src="js/JS.js"></script>
 	</head>
   

@@ -14,6 +14,9 @@
 		<section class="Topics">
 			<ul>
 				<li><a href="Activity.php?Activity=Archery">Archery</a></li>
+				<li><a href="Activity.php?Activity=Baseball">Baseball</a></li>
+				<li><a href="Activity.php?Activity=Soccer">Soccer</a></li>
+				<li><a href="Activity.php?Activity=Yoga">Yoga</a></li>
 			</ul>
 		</section>
 

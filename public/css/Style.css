@@ -3,7 +3,9 @@
 /*General*/
 body
 {
-	background-color: #09347a;
+	background: url(./../images/Hiking.jpg) top left no-repeat, url(./../images/Tennis.jpg) top right no-repeat, url(./../images/Bowling.jpg) bottom left no-repeat, url(./../images/Canoeing.jpg) bottom right no-repeat;
+    background-size: 10%, 10%, 50%, 50%;
+	background-color: #999999;
 }
 
 .Profile
@@ -13,11 +15,11 @@ body
 
 .Profile a
 {
-	color:#F1632A;
+	color:lime;
 	font-weight: bold;
 	text-decoration: none;
-	color: #F1632A;
-	text-shadow: 4px 3px 2px #000000;
+	color: lime;
+	text-shadow: 2px 1px 1px #000000;
 	padding-left: 15px;
 }
 
@@ -25,56 +27,35 @@ header
 {
 	font-size: 32px;
 	font-weight: bold;
-	color: #F1632A;
-	text-shadow: 4px 3px 2px #000000;
+	color: lime;
+	text-shadow: 2px 1px 1px #000000;
 }
 
 .Title
 {
 	font-size: 15px;
 	font-weight: bold;
-	color: #F1632A;
+	color: lime;
 	text-shadow: 4px 3px 2px #000000;
 }
 
 footer
 {
-	color: #F1632A;
+	color: lime;
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	text-shadow: 4px 3px 2px #000000;
+	text-shadow: 2px 1px 1px #000000;
 	padding-top: 10px;
 	padding-left: 15px;
-}
-
-/*Navigation*/
-#HomePic
-{
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 15px;
-	background-color: #F1632A;
-	padding: 5px 5px 5px 5px;
-	margin: 0px 4px 0px 4px;
-}
-
-#HomePic a
-{
-	padding-left: 5%;
-	padding-right: 5%;
-}
-#HomePic a img
-{
-	border-radius: 15px;
 }
 
 .NavBar
 {
 	border-style: solid;
 	border-width: 2px;
-	background-color: #F1632A;
+	background-image: linear-gradient(cyan, lime);
 	border-radius: 5px;
 	margin: 5px 0px 10px 0px;
 	color: #000000;
@@ -87,16 +68,17 @@ footer
 
 .NavBar a
 {
-	color: #09347A;
+	color: #000000;
 	text-decoration: none;
 }
 
 .Topics
 {
+	margin: 0px 10% 0px 10%;
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 5px;
-	background-color: #09347A;
+	background-image: linear-gradient(cyan, lime);
 	color: #000000
 }
 
@@ -107,7 +89,8 @@ footer
 
 .Topics a
 {
-	color: #F1632A;
+	color: #000000;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -121,7 +104,7 @@ footer
 	left: 80%;
 	border-style: solid;
 	border-width: 2px;
-	background-color: #F1632A;
+	background-color: lime;
 	border-radius: 5px;
 	text-align: center;
 	line-height: 0px;
@@ -134,7 +117,7 @@ footer
 
 .CreateThread a
 {
-	color: #09347A;
+	color: #999999;
 	text-decoration: none;
 }
 
@@ -143,7 +126,7 @@ footer
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 5px;
-	background-color: #09347A;
+	background-color: #999999;
 	color: #000000
 }
 
@@ -154,7 +137,7 @@ footer
 
 .Threads li
 {
-	background-color: #F1632A;
+	background-color: lime;
 	list-style: none;
 	padding: 5px;
 	margin-right: 3%;
@@ -162,7 +145,7 @@ footer
 
 .Threads a
 {
-	color: #09347A;
+	color: #999999;
 	text-decoration: none;
 }
 
@@ -182,7 +165,7 @@ footer
 form
 {
 	border-style: none;
-	background-color: #F1632A;
+	background-color: lime;
 	font-weight: 600;
 	padding: 5px 5px 3px 5px;
 	text-align: center;
@@ -193,13 +176,13 @@ form
 	border-style: solid;
 	border-radius: 5px;
 	padding-left: 5px;
-	background-color: #F1632A;
+	background-color: lime;
 	margin-bottom: 25px;
 }
 
 .Posts p
 {
-	color: #09347A;
+	color: #999999;
 }
 
 .PostHeader
@@ -245,7 +228,7 @@ form
 {
 	border-style: solid;
 	border-width: 2px;
-	background-color: #F1632A;
+	background-color: lime;
 	border-radius: 5px;
 	margin-top: 5px;
 	padding-bottom: 15px;
@@ -256,14 +239,14 @@ form
 {
 	font-size: 15px;
 	font-weight: bold;
-	color: #F1632A;
+	color: lime;
 	text-shadow: 4px 3px 2px #000000;
 	text-align: center;
 }
 
 #Creds
 {
-	color: #09347A;
+	color: #999999;
 	text-decoration: none;
 	font-weight: bold;
 	margin-left: 10px;
@@ -292,7 +275,7 @@ form
 {
 	font-size: 32px;
 	font-weight: bold;
-	color: #F1632A;
+	color: lime;
 	text-shadow: 4px 3px 2px #000000;
 	text-align: center;
 }
